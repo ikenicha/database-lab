@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> add staff </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="database.css">
+<style>
+body  {
+    background-image: url("bg/christmas.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+  <!-- Navigation-->
+  <div id="head">
+  <div class="topnav-right">
+    <div class="dropdown">
+      <a href ="Admin_customer_info.html"><button class="dropbtn">CUSTOMER INFO |</button></a>
+    </div>
+
+    <div class="dropdown">
+      <a href ="Admin_staff_info.html"><button class="dropbtn">STAFF INFO |</button></a>
+      </div>
+
+    <div class="dropdown">
+      <a href ="Admin_order.html"><button class="dropbtn">ORDER |</button></a>
+    </div>
+
+
+    <div class="dropdown">
+      <a href ="Admin_edit_menu.php"><button class="dropbtn">EDIT MENU |</button></a>
+    </div>
+
+    <div class="dropdown">
+      <a href="Admin_feedback.html"><button class="dropbtn">FEEDBACK |</button></a>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">JO-ADMIN |</button>
+    </div>
+
+
+  </div>
+  </div>
+    <!-- Contact us-->
+        <div class="container">
+
+          <div class="row">
+
+            <div class="column">
+              <h2>Add STAFF</h2><hr><br>
+              <form action="Admin_staff_info.html">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="tel">Telephone No.</label>
+            <input type="text" id="tel" name="telephone" placeholder="08x-xxx-xxxx">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name"email" placeholder="e-mail">
+
+
+            <label for="add">Address</label>
+            <textarea id="subject" name="subject" placeholder="Address.." style="height:50px"></textarea>
+
+            <label for="position">Position</label>
+            <input type="text" id="position" name"position" placeholder="position">
+
+            <label for="email">Salary</label>
+            <input type="text" id="salary" name"salary" placeholder="salary">
+
+
+
+
+
+
+
+
+            <input type="submit" id="signin" value="Add">
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+</body>
+</html>

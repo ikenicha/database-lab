@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> clean food </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="database.css">
+<style>
+body  {
+    background-image: url("bg/christmas.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+  <!-- Navigation-->
+  <div id="head">
+  <div class="topnav-right">
+      <div class="dropdown">
+        <a href ="home.html"><button class="dropbtn">HOME |</button></a>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">MENU |</button>
+          <div class="dropdown-content">
+
+            <a href="maincourses.html">MAIN COURSES</a>
+            <a href="desserts.html">DESSERTS</a>
+            <a href="beverages.html">BEVERAGES</a>
+          </div>
+        </div>
+
+      <div class="dropdown">
+        <a href ="login.html"><button class="dropbtn">LOG IN |</button></a>
+      </div>
+
+      <div class="dropdown">
+        <a href ="aboutus.html"><button class="dropbtn">ABOUT US |</button></a>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">CONTACT US |</button>
+        <div class="dropdown-content">
+          <a href="contact_info.html">Contact Info</a>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Contact us-->
+        <div class="container">
+
+          <div class="row">
+
+            <div class="column">
+              <h2>Sign Up</h2><hr><br>
+              <form action="login.html">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other<br><br>
+                <label for="tel">Telephone No.</label>
+            <input type="text" id="tel" name="telephone" placeholder="08x-xxx-xxxx">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name"email" placeholder="e-mail">
+            <label for="add">Address</label>
+            <textarea id="subject" name="subject" placeholder="Address.." style="height:50px"></textarea>
+
+
+
+
+                <label for="pass">password</label>
+                <input type="password" id="pass" name="pass" placeholder="password">
+                <label for="pass">repeat password</label>
+                <input type="password" id="pass" name="confirm_pass" placeholder="password">
+
+
+
+            <input type="submit" id="signin" value="Sign Up">
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+</body>
+</html>

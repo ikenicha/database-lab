@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> order </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="database.css">
+<style>
+.select{
+  width:50px;
+}
+</style>
+</head>
+<body>
+
+  <!-- Navigation-->
+  <div class="del">
+  <div id="head">
+  <div class="topnav-right">
+      <div class="dropdown">
+        <a href ="Admin_customer_info.html"><button class="dropbtn">CUSTOMER INFO |</button></a>
+      </div>
+
+      <div class="dropdown">
+        <a href ="Admin_staff_info.html"><button class="dropbtn">STAFF INFO |</button></a>
+        </div>
+
+      <div class="dropdown">
+        <a href ="Admin_order.html"><button class="dropbtn">ORDER |</button></a>
+      </div>
+
+
+
+      <div class="dropdown">
+        <a href ="Admin_edit_menu.php"><button class="dropbtn">EDIT MENU |</button></a>
+      </div>
+
+      <div class="dropdown">
+        <a href="Admin_feedback.html"><button class="dropbtn">FEEDBACK |</button></a>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">JO-ADMIN |</button>
+      </div>
+
+
+    </div>
+    </div>
+    <!-- Contact us-->
+        <div class="container">
+
+          <div class="row">
+
+            <div class="mid">
+              <h2>ORDER</h2><hr>
+              <h4>SELECT DATE/MONTH/YEAR OF ORDER</h4>
+              <table>
+              <tr>
+                <th>DATE</th>
+                <th>MONTH</th>
+                <th>YEAR</th>
+              </tr>
+              <tr>
+                <td>
+              <select id="wgt">
+                <option value="one">-</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="one">3</option>
+                <option value="two">4</option>
+                <option value="one">5</option>
+                <option value="two">6</option>
+                <option value="one">7</option>
+                <option value="two">8</option>
+                <option value="one">9</option>
+                <option value="two">10</option>
+                <option value="one">11</option>
+                <option value="two">12</option>
+                <option value="one">13</option>
+                <option value="two">14</option>
+                <option value="one">15</option>
+                <option value="two">16</option>
+                <option value="one">17</option>
+                <option value="two">18</option>
+                <option value="one">19</option>
+                <option value="two">20</option>
+                <option value="one">21</option>
+                <option value="two">22</option>
+                <option value="one">23</option>
+                <option value="two">24</option>
+                <option value="one">25</option>
+                <option value="two">26</option>
+                <option value="one">27</option>
+                <option value="two">28</option>
+                <option value="one">29</option>
+                <option value="two">30</option>
+                <option value="one">31</option>
+
+              </select>
+            </td>
+
+              <td>
+              <select id="wgt">
+                <option value="one">-</option>
+                <option value="one">January</option>
+                <option value="two">February</option>
+                <option value="one">March</option>
+                <option value="two">April</option>
+                <option value="one">May</option>
+                <option value="two">June</option>
+                <option value="one">July</option>
+                <option value="two">August</option>
+                <option value="one">September</option>
+                <option value="two">October</option>
+                <option value="one">November</option>
+                <option value="two">December</option>
+              </select>
+            </td>
+
+            <td>
+            <select id="wgt">
+              <option value="one">-</option>
+              <option value="one">2018</option>
+              <option value="two">2019</option>
+              <option value="one">2020</option>
+              <option value="two">2021</option>
+            </select>
+          </td>
+          <td>
+            <button type="button">Search</button>
+          </td>
+
+          </tr>
+
+            </table>
+
+<br><br>
+          <center>
+              <table border="1">
+                <tr>
+                  <th>OID</th>
+                  <th>CID</th>
+                  <th>Order Date</th>
+                  <th>Order Detail</th>
+                  <th>Total Price</th>
+                  <th>Total Cal</th>
+                  <th>Status</th>
+                  <th>SID</th>
+
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td><a href="Admin_customer_detail.html">3</a></td>
+                  <td>09-10-2018</td>
+                  <td>Salmon x 1, Shell x 1</td>
+                  <td>400 baht</td>
+                  <td>440 cal</td>
+                  <td><select>
+  <option value="one" selected> COOKING </option>
+  <option value="two" >DELIVERING</option>
+  <option value="two" >SUCCESS</option>
+</select></td>
+                  <td><a href="Admin_deliver_detail.html">4</a></td>
+
+                </tr>
+
+                <tr>
+                  <td>2</td>
+                  <td><a href="Admin_customer_detail.html">4</a></td>
+                  <td>18-10-2018</td>
+                  <td>Greeb Tea x 1, Caramel Popcorn x 1</td>
+                  <td>159 baht</td>
+                  <td>300 cal</td>
+                  <td><select>
+  <option value="one" selected> COOKING </option>
+  <option value="two" >DELIVERING</option>
+  <option value="two" >SUCCESS</option>
+</select></td>
+                  <td><a href="Admin_deliver_detail.html">4</a></td>
+
+                </tr>
+
+
+              </table>
+              <br>
+              <form> <input type="submit" value="Update Status"></form>
+              <form action="Admin_add_order.html"> <input type="submit" value="Add Order"></form>
+
+
+            </center>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
